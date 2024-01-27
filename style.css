@@ -1,0 +1,22 @@
+.googlecolor {
+    color: green;
+}
+.linkgroupcolor {
+    color: red;
+}
+#second-div p{
+    color: blue;
+}
+#second-div p:nth-child(even){
+    color: red;
+}
+.newtext::after{
+    content: "NEW";
+    color: rgb(246, 246, 92);
+}
+.hovertext{
+    cursor: pointer;
+}
+.hovertext:hover{
+    font-style: italic;
+}
