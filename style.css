@@ -1,8 +1,16 @@
-.googlecolor {
+a{
     color: green;
+    text-decoration: none;
 }
-.linkgroupcolor {
+a:nth-child(5) {
     color: red;
+}
+#first-div p:first-child {
+    color: red;
+}
+#first-div > p::after{
+    content: "NEW";
+    color: rgb(240, 240, 108);
 }
 #second-div p{
     color: blue;
@@ -10,13 +18,6 @@
 #second-div p:nth-child(even){
     color: red;
 }
-.newtext::after{
-    content: "NEW";
-    color: rgb(246, 246, 92);
-}
-.hovertext{
-    cursor: pointer;
-}
-.hovertext:hover{
+body > p:last-of-type:hover{
     font-style: italic;
 }
